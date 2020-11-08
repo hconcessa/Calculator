@@ -32,4 +32,8 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 DISTFILES += \
     CSS/button-style.css \
+    Images/icon.png \
     button-style.css
+
+# Icon image
+RC_ICONS = Images/icon.ico
